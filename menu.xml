@@ -146,6 +146,15 @@
       </menuitem>
     </menu>
   </menuitem>
+  <menuitem label="Mask">
+    <icon>fas:globe fa-fw</icon>
+    <menu>
+      <menuitem label="Teste Mask">
+        <action>Mask#method=TesteMask</action>
+        <icon>fa fa fa-fw fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
   
   <menuitem label="Logout">
     <action>LoginForm#method=onLogout#static=1</action>
