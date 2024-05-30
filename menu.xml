@@ -155,7 +155,10 @@
       </menuitem>
     </menu>
   </menuitem>
-  
+  <menuitem label="Painel">
+    <action>TestePainel#method=ExibePainel</action>
+    <icon>fas:sign-out-alt fa-fw</icon>
+  </menuitem>
   <menuitem label="Logout">
     <action>LoginForm#method=onLogout#static=1</action>
     <icon>fas:sign-out-alt fa-fw</icon>
