@@ -151,13 +151,22 @@
     <menu>
       <menuitem label="Teste Mask">
         <action>Mask#method=TesteMask</action>
-        <icon>fa fa fa-fw fa-fw</icon>
+        <icon>fas:globe fa-fw</icon>
       </menuitem>
     </menu>
   </menuitem>
   <menuitem label="Painel">
-    <action>TestePainel#method=ExibePainel</action>
-    <icon>fas:sign-out-alt fa-fw</icon>
+    <icon>fas:mask fa-fw</icon>
+  <menu>
+    <menuitem label="Teste Mask">
+      <action>TestePainel#method=ExibePainel</action>
+      <icon>fas:mask fa-fw</icon>
+    </menuitem>
+  </menu>
+  </menuitem>
+  <menuitem label="Scroll">
+    <action>TesteScroll#method=ExibeScroll</action>
+    <icon>fas:sign-out-alt</icon>
   </menuitem>
   <menuitem label="Logout">
     <action>LoginForm#method=onLogout#static=1</action>
